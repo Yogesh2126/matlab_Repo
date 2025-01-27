@@ -1,0 +1,45 @@
+
+30-Aug-2021 09:38:08
+Checking compatibility for test generation: model 'untitled'
+Compiling model...done
+Building model representation...done
+
+30-Aug-2021 09:38:43
+'untitled' is compatible for test generation with Simulink Design Verifier.
+
+
+Generating tests using model representation from 30-Aug-2021 09:38:43...
+
+SATISFIED
+Subsystem/Compare To Constant/Compare
+RelationalOperator: input1 <= input2 true
+Analysis Time = 00:01:05
+
+SATISFIED
+Subsystem/Switch
+logical trigger input false (output is from 3rd input port)
+Analysis Time = 00:01:05
+
+SATISFIED
+Subsystem/Switch
+logical trigger input true (output is from 1st input port)
+Analysis Time = 00:01:05
+
+SATISFIED
+Subsystem/Compare To Constant/Compare
+RelationalOperator: input1 <= input2 false
+Analysis Time = 00:01:05
+
+
+30-Aug-2021 09:40:14
+
+Completed normally.
+
+Generating output files:
+
+30-Aug-2021 09:40:18
+Results generation completed.
+
+    Data file:
+    D:\Counters Assignments\sldv_output\untitled\untitled_sldvdata4.mat
+

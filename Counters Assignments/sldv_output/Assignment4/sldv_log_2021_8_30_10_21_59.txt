@@ -1,0 +1,80 @@
+
+30-Aug-2021 10:19:14
+Checking compatibility for test generation: model 'Assignment4'
+Compiling model...done
+Building model representation...done
+
+30-Aug-2021 10:19:24
+'Assignment4' is compatible for test generation with Simulink Design Verifier.
+
+
+Generating tests using model representation from 30-Aug-2021 10:19:24...
+
+SATISFIED
+Subsystem/Compare To Constant/Compare
+RelationalOperator: input1 <= input2 true
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/AND
+Logic: input port 1 true
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/AND
+Logic: input port 2 true
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/AND
+Logic: input port 1 false
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Switch1
+logical trigger input true (output is from 1st input port)
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Compare To Constant1/Compare
+RelationalOperator: input1 >= input2 false
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Compare To Constant1/Compare
+RelationalOperator: input1 >= input2 true
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Switch1
+logical trigger input false (output is from 3rd input port)
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Switch
+logical trigger input false (output is from 3rd input port)
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Switch
+logical trigger input true (output is from 1st input port)
+Analysis Time = 00:00:22
+
+SATISFIED
+Subsystem/Compare To Constant/Compare
+RelationalOperator: input1 <= input2 false
+Analysis Time = 00:00:22
+
+
+30-Aug-2021 10:21:56
+
+Completed normally.
+
+Generating output files:
+
+30-Aug-2021 10:21:59
+Results generation completed.
+
+    Data file:
+    D:\Counters Assignments\sldv_output\Assignment4\Assignment4_sldvdata5.mat
+

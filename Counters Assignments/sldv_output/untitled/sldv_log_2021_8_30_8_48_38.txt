@@ -1,0 +1,25 @@
+
+30-Aug-2021 08:48:15
+Checking compatibility for test generation: model 'untitled'
+Compiling model...done
+Building model representation...done
+
+30-Aug-2021 08:48:25
+'untitled' is compatible for test generation with Simulink Design Verifier.
+
+
+Generating tests using model representation from 30-Aug-2021 08:48:25...
+
+
+30-Aug-2021 08:48:37
+
+Completed normally.
+
+Generating output files:
+
+30-Aug-2021 08:48:38
+Results generation completed.
+
+    Data file:
+    D:\Counters Assignments\sldv_output\untitled\untitled_sldvdata3.mat
+

@@ -1,0 +1,30 @@
+
+30-Aug-2021 10:00:38
+Checking compatibility for design error detection: model 'Assignment4'
+Compiling model...done
+Building model representation...done
+
+30-Aug-2021 10:00:55
+'Assignment4' is compatible for design error detection with Simulink Design Verifier.
+
+
+Detecting design errors using model representation from 30-Aug-2021 10:00:55...
+
+FALSIFIED - NEEDS SIMULATION
+Subsystem/Divide
+Division by zero
+Analysis Time = 00:00:48
+
+
+30-Aug-2021 10:01:50
+
+Completed normally.
+
+Generating output files:
+
+30-Aug-2021 10:02:09
+Results generation completed.
+
+    Data file:
+    D:\Counters Assignments\sldv_output\Assignment4\Assignment4_sldvdata2.mat
+

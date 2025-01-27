@@ -1,0 +1,25 @@
+
+30-Aug-2021 08:44:44
+Checking compatibility for design error detection: model 'untitled'
+Compiling model...done
+Building model representation...done
+
+30-Aug-2021 08:44:52
+'untitled' is compatible for design error detection with Simulink Design Verifier.
+
+
+Detecting design errors using model representation from 30-Aug-2021 08:44:52...
+
+
+30-Aug-2021 08:46:21
+
+Completed normally.
+
+Generating output files:
+
+30-Aug-2021 08:46:23
+Results generation completed.
+
+    Data file:
+    D:\Counters Assignments\sldv_output\untitled\untitled_sldvdata1.mat
+
